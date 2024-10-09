@@ -36,3 +36,12 @@
 
 console.log([] < {});
 console.log(String([] + 2 + "2"));
+
+const obj1 = {
+  name: "Madan",
+};
+const obj2 = {
+  name: "Madan",
+};
+console.log(obj1 == obj2);
+console.log(obj1 === obj2);
