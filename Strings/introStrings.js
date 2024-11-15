@@ -1,6 +1,6 @@
 // sequence of character that is used to represent and manipulate the text
 // length - number of characters in a string
-// index - position of a character within a string, starting frpm 0.
+// index - position of a character within a string, starting from 0.
 // concatenation - process to combininig strings
 // Substring - portion of  string
 
@@ -11,11 +11,9 @@ let middleName = "mohan";
 let firstName = "Madan";
 
 // 2. using string constructor
-
 let userName = new String("mmtiwari");
 
 // 3. using templete literals(String Manipulation)
-
 let userId = "1234";
 let newUserId = `Reverse of ${userId}`;
 console.log(newUserId);
@@ -24,7 +22,6 @@ console.log(newUserId);
 let userPass = " ";
 
 // 5. Multiline string
-
 let userDetails = `
 The user details
 are very lengthy

@@ -26,6 +26,8 @@
 // at() is new addition in js
 // at() gives negative index value but charAt() can't
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 // indexOf() and lastIndexOf()
 // let str = "My all code is undefined code also a code";
 // console.log(str.indexOf("code"));// start from 0 Index
@@ -46,18 +48,29 @@
 // console.log(str.indexOf()); // check undefined
 // console.log(str.lastIndexOf());
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 // slice () and subString()
 // (start, end) => end position is not included
 
 const str2 = "Once upon a time I was a tall tree";
-console.log(str2.slice(5)); // given position to last position
-console.log(str2.substring(5));
+// console.log(str2.slice(5)); // given position to last position
+// console.log(str2.substring(5));
 
-console.log(str2.slice(5, 10)); // start include but last not include
-console.log(str2.substring(5, 10));
+// console.log(str2.slice(5, 10)); // start include but last not include
+// console.log(str2.substring(5, 10));
 
-console.log(str2.slice(-5, -1)); // return value from -5(count from last index)
-console.log(str2.substring(-5, -1)); // take any -position as 0
+// console.log(str2.slice(-5, -1)); // return value from -5(count from last index)
+console.log(str2.substring(-5, 1)); // take any - position as 0
 
 // if in slice() end position is smaller than start position, it returns empty string
 // if in subString() end position is small than end position, it swaps the positions
+
+// const str = "Madanmohan Tiwari";
+// length of string using lenght property
+// console.log(str.length);
+
+// accessing the charactars
+// console.log(str[0]);
+//accessing last character
+// console.log(str[str.length - 1]);
