@@ -1,4 +1,3 @@
-```markdown
 # Learning JavaScript 🚀
 
 Welcome to my **Learning JavaScript** repository! This is a part of my 30-day JavaScript learning journey where I document all my progress, notes, and code snippets. The goal is to master JavaScript fundamentals, practice hands-on coding, and explore real-world applications.
@@ -49,4 +48,4 @@ Feel free to connect with me if:
 ---
 
 Feel free to suggest improvements or raise issues in this repository. Let's grow together! 🚀
-```
+
