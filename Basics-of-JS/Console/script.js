@@ -22,3 +22,11 @@ console.groupEnd();
 // try to use css styles on direct console elements
 const styles = "padding: 10px; background-color: white; color: black;";
 console.log("%cHello World!", styles);
+
+// for clearing console
+// console.clear();
+
+console.info("This is an information");
+
+// for counting the number of times a particular line is executed
+console.count("Hello");
