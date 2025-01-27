@@ -1,7 +1,7 @@
 // sequence of character that is used to represent and manipulate the text
 // length - number of characters in a string
 // index - position of a character within a string, starting from 0.
-// concatenation - process to combininig strings
+// concatenation - process to combining strings
 // Substring - portion of  string
 
 // Declaration of String
@@ -13,7 +13,7 @@ let firstName = "Madan";
 // 2. using string constructor
 let userName = new String("mmtiwari");
 
-// 3. using templete literals(String Manipulation)
+// 3. using template literals(String Manipulation)
 let userId = "1234";
 let newUserId = `Reverse of ${userId}`;
 console.log(newUserId);

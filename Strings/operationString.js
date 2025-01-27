@@ -7,7 +7,7 @@ let lengthOfString = userName.length;
 
 console.log("Length of above string is " + lengthOfString);
 
-// String Concatentaion
+// String Concatenation
 
 let Skills1 = "HTML";
 let Skills2 = "CSS";
