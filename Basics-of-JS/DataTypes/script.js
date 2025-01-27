@@ -1,18 +1,14 @@
 // Primitive Data Types
 // 1. String - Sequence of characters. Must be in quotes and backticks
-// 2. Number - Integers as well as folating-point numbers
-// 3. Booloen - Logical entity / true or false
+// 2. Number - Integers as well as floating-point numbers
+// 3. Boolean - Logical entity / true or false
 // 4. Null - Intentional absence of any object value
 // 5. Undefined - A variable that has not yet been defined / assigned
-// 6. Symbol - Buil-in object whose constructor returns a unique symbol (ES6)
+// 6. Symbol - Built-in object whose constructor returns a unique symbol (ES6)
 // 7. BigInt - Numbers that are greater than the "Number" type can handle
 
-// Reference Types(Objects)
-// Reference types or "objects" are non-primitive value and when assigned to a variable, the variable is given a refrence to that value
-// Object literals, arrays and functions are all refrence types.
-
 // Static typed vs Dynamic Typed
-// JavaScript is a dynamically-typed language. This menas, we do not explicitly defines the type for our variables.
+// JavaScript is a dynamically-typed language. This means, we do not explicitly defines the type for our variables.
 // TypeScript is a superset of JavaScript, which allows static-typing. This can make your code more verbose and less prone to errors.
 
 // String
@@ -45,8 +41,11 @@ const symbol = Symbol("id");
 console.log(symbol, typeof symbol);
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Reference Types(Objects)
+// Reference types or "objects" are non-primitive value and when assigned to a variable, the variable is given a reference to that value
+// Object literals, arrays and functions are all reference types.
 
-// Object Literlas
+// Object Literals
 const userDetails = {
   userName: "mmtiwari",
   userAge: 30,
@@ -62,5 +61,4 @@ function myDetails(params) {
   console.log("Hello Users!");
 }
 
-myDetails();
 console.log(myDetails, typeof myDetails);
