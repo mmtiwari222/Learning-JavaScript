@@ -3,11 +3,11 @@
 // Convert String to Number
 // let score = "58";
 // console.log(score, typeof score); // 58 string
-// score = Number(score); // Using Number() constructure
+// score = Number(score); // Using Number() constructor
 // console.log(score, typeof score); // 58 number
 // score = parseInt(score); // using parseInt function
 // console.log(score, typeof score); // 58 number
-// score = +score; // using + operator
+// score = +score; // using unary(+) operator
 // console.log(score, typeof score); // 58 number
 
 // let user = "MMT";
@@ -15,13 +15,20 @@
 // console.log(userName, typeof userName); // NaN number
 // if we convert a string in number, which is not a integer, then it returns value NaN but data type is number
 // NaN - Not a Number
+// there are some ways to get NaN
+// console.log(0 / 0); // NaN
+// console.log(1 * "string"); // NaN
+// console.log(Math.sqrt(-1)); // NaN
+// console.log(undefined + undefined); // NaN
+// console.log(Number("string")); // NaN
+// console.log(Number(undefined)); // NaN
 
 // Convert Number to String
 // let amount = 48;
 // console.log(amount, typeof amount);
 // amount = amount.toString(); // Using tostring() method
 // console.log(amount, typeof amount);
-// amount = String(amount) // using String() constructure
+// amount = String(amount) // using String() constructor
 // console.log(amount, typeof amount);
 
 // convert Number to Boolean
@@ -73,7 +80,7 @@
 // val = Boolean(val);
 // console.log(val, typeof val);// false boolean
 
-// convert undefined tonumber
+// convert undefined to number
 // let val = undefined;
 // val = Number(val);
 // console.log(val, typeof val); // NaN number
@@ -87,14 +94,3 @@
 // let value = undefined;
 // value = Boolean(value);
 // console.log(value, typeof value); // false boolean
-
-// some output based questions
-// console.log(null == undefined); // true
-// console.log(null == null); // true
-// console.log(null == 0); //false
-// console.log(undefined == undefined); // true
-// console.log(undefined == 0); // false
-// console.log(NaN == 0); // false
-// console.log(NaN == NaN); // false
-// console.log(undefined == NaN); // false
-// console.log(null == NaN); // false
