@@ -64,9 +64,24 @@
 // Logical operators
 // let p = 5;
 // let q = 10;
+// logical and operator - if the first operand is return false then first operand is return otherwise second operand is return
 // console.log(p < 10 && q > 5); // true // and
+// logical or operator - if the first operand is return true then first operand is return otherwise second operand is return
 // console.log(p < 10 || q < 5); // true // or
+// logical not operator - negate the operand (true to false and false to true)
 // console.log(!(p < 10)); // false // not
+// Nullish coalescing operator - if the first operand is null or undefined then second operand is return otherwise first operand is return
+// console.log(p ?? q); // 5 // nullish
+
+// Bitwise operators
+// let x = 5;
+// let y = 10;
+// console.log(x & y); // 0 // bitwise AND
+// console.log(x | y); // 15 // bitwise OR
+// console.log(x ^ y); // 15 // bitwise XOR
+// console.log(~x); // -6 // bitwise NOT
+// console.log(x << 2); // 20 // bitwise left shift
+// console.log(x >> 2); // 1 // bitwise right shift
 
 // String operators // concatenation
 // let firstName = "Madanmohan";

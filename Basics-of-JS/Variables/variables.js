@@ -24,7 +24,7 @@ console.log(userEmailId);
 // 3. using let keyword
 let userAge = 20;
 console.log(userAge);
-// we can change the value of variable
+// we can reasign the value of variable
 // we can not redeclare same variable in the same scope
 
 // Example
@@ -36,6 +36,3 @@ console.log(studentName);
 }
 // let studentName = "Vivek"; // SyntaxError: Identifier 'studentName' has already been declared
 console.log(studentName);
-
-
-
