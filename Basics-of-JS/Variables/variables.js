@@ -1,30 +1,36 @@
-// Vriables are used to store data in JS
+//* Variables in JS
+// Variables are used to store data in JS
 // Basically variables are containers which are use for contain the data
 
 //Naming Conventions
 // - Only letters, numbers, underscores and dollar signs
 // - Can't starts with a number
-// - Can't use predifined word or keywords for naming a variable
+// - Can't use predefined word or keywords for naming a variable
+
+//? Steps to define a variable
+// 1. declare a variable - Declaration
+// 2. assign a value to the variable - Initialization
+// 3. use the variable
 
 // there are 3 types to declare a variable in js
-// var, let, const
+//? var, let, const
 
-// 1. using var keyword
+//! 1. using var keyword (Old way)
 var userName = "mmtiwari";
 console.log(userName);
 // now we do not use this var keyword in our projects
+// can be redeclared and updated (reassign)
 
-// 2. using const keyword
+//! 2. using const keyword (New & Modern way) - constant - unchangeable
 const userEmailId = "mm@gmail.com";
 console.log(userEmailId);
-// once const define then the value of that variable can not change
-// means, we can't reassign the value of that varibale because it becomes constant
-// we can not redeclare same varible in the same block
+// means, we can't reassign
+// we can't redeclare
 
-// 3. using let keyword
+//! 3. using let keyword (New & Modern way)
 let userAge = 20;
 console.log(userAge);
-// we can reasign the value of variable
+// we can reassign
 // we can not redeclare same variable in the same scope
 
 // Example
